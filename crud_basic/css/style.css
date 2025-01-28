@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+h1{
+    background-color: aliceblue;
+    color: black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input{
+    width: 300px;
+    padding: 10px;
+
+}
+
+.menu{
+    width: 100%;
+    padding: 28px 8%;
+    top: 0;
+    background-color: rgb(20, 0, 147);
+    position: sticky;
+    z-index: 3;
+}
